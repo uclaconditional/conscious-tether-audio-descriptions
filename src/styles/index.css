@@ -1,0 +1,145 @@
+@import "./reset.css";
+
+:root {
+  --black: #171717;
+  --white: #fff;
+  --grey: #ccc;
+  --backgroundColor: white;
+  --borderSize: 2px;
+
+  --plyr-control-icon-size: 100px;
+}
+
+
+body {
+  /* font-family: 'Overpass Mono', monospace; */
+  font-family: 'Atkinson Hyperlegible', san-serif;
+  font-size: 22px;
+  line-height: 1.2em;
+  color: var(--black);
+  /* background-color: #eee; */
+}
+
+main {
+  background-color: #fff;
+  /* padding: 20px; */
+  margin: 20px;  
+  max-width: 55ch;
+}
+
+nav {
+  margin: 20px;  
+}
+
+nav li {
+  margin-bottom: 0.5em;
+  border: 1px solid black;
+}
+
+nav li h1, 
+nav li h2, 
+nav li h3 {
+  font-weight: normal; 
+}
+
+nav li h2 {
+  font-size: 1.5em;
+  line-height: 1.0em;
+}
+
+nav li a {
+  padding: 20px;
+  display: block;
+}
+
+nav li a:link,
+nav li a:visited,
+nav li a:active {
+ color: inherit;
+}
+
+nav li a:hover {
+  background-color: #eee;
+}
+
+blockquote {
+  padding: 0 20px 20px;
+}
+
+.transcript p {
+  margin-bottom: 1em;
+}
+
+header {
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+header h1 {
+  font-weight: normal;
+  font-size: 1.2em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+header h2 {
+  font-weight: normal;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+/* .home header h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.home header h2 {
+  margin-top: 10px;
+  font-size: 1.2em;
+} */
+
+main h1 {
+  font-weight: normal;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+main h2 {
+  font-weight: normal;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin: 10px 0 10px;
+}
+
+main h3 {
+  font-weight: normal;
+}
+
+main .plyr {
+  margin: 20px 0;
+}
+
+footer {
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+footer a {
+  padding: 20px 0;
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  body {
+    font-size: 40px;
+  }
+}
+
+.plyr__controls {
+  justify-content: flex-start;
+}
+
+.plyr__controls button.plyr__controls__item:first-child {
+  margin-right: 0;
+}
