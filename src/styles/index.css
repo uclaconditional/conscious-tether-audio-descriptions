@@ -1,39 +1,32 @@
 @import "./reset.css";
+@import "./_type.css";
 
 :root {
   --black: #171717;
-  --white: #fff;
-  --grey: #ccc;
-  --backgroundColor: white;
-  --borderSize: 2px;
-
+  --backgroundColor: rgb(233, 230, 215);
   --plyr-control-icon-size: 100px;
 }
 
+html {
+  font-size: 24px;
+}
 
 body {
-  /* font-family: 'Overpass Mono', monospace; */
-  font-family: 'Atkinson Hyperlegible', san-serif;
-  font-size: 22px;
+  font-size: 2rem;
+  font-family: 'suisse', san-serif;
   line-height: 1.2em;
   color: var(--black);
-  /* background-color: #eee; */
+  background-color: var(--backgroundColor);
+  margin: 1rem;
 }
 
 main {
-  background-color: #fff;
-  /* padding: 20px; */
-  margin: 20px;  
   max-width: 55ch;
-}
-
-nav {
-  margin: 20px;  
+  margin: 0 1rem;
 }
 
 nav li {
   margin-bottom: 0.5em;
-  border: 1px solid black;
 }
 
 nav li h1, 
@@ -43,7 +36,6 @@ nav li h3 {
 }
 
 nav li h2 {
-  font-size: 1.5em;
   line-height: 1.0em;
 }
 
@@ -59,7 +51,7 @@ nav li a:active {
 }
 
 nav li a:hover {
-  background-color: #eee;
+  background-color: white;
 }
 
 blockquote {
@@ -71,44 +63,33 @@ blockquote {
 }
 
 header {
-  padding: 20px;
-  border-bottom: 1px solid black;
+  margin: 2rem 1rem 2rem 1rem;
 }
 
 header h1 {
-  font-weight: normal;
-  font-size: 1.2em;
-  line-height: 1em;
-  text-transform: uppercase;
+  display: inline;
+  font-weight: bold;
+
 }
 
 header h2 {
   font-weight: normal;
-  font-size: 0.9em;
-  text-transform: uppercase;
+  /* font-size: 0.9em; */
+  /* text-transform: uppercase; */
   margin-top: 5px;
 }
 
-/* .home header h1 {
-  font-size: 2em;
-  text-transform: uppercase;
-}
-
-.home header h2 {
-  margin-top: 10px;
-  font-size: 1.2em;
-} */
-
 main h1 {
   font-weight: normal;
-  font-size: 2em;
+  /* font-size: 2em; */
   line-height: 1em;
+  font-style: italic;
 }
 
 main h2 {
   font-weight: normal;
-  font-size: 1.2em;
-  text-transform: uppercase;
+  /* font-size: 1.2em; */
+  /* text-transform: uppercase; */
   margin: 10px 0 10px;
 }
 
@@ -120,8 +101,12 @@ main .plyr {
   margin: 20px 0;
 }
 
+.plyr--audio .plyr__controls {
+  background-color: transparent;
+}
+
 footer {
-  border-top: 1px solid black;
+  /* border-top: 1px solid black; */
   text-align: center;
 }
 
@@ -132,7 +117,7 @@ footer a {
 
 @media (max-width: 1200px) {
   body {
-    font-size: 40px;
+    /* font-size: 40px; */
   }
 }
 
