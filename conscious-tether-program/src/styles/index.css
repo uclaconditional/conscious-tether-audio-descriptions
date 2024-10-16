@@ -1,0 +1,92 @@
+@import "./reset.css";
+@import "./_type.css";
+
+:root {
+  --black: #171717;
+  --backgroundColor: rgb(233, 230, 215);
+}
+
+html {
+  font-size: 24px;
+}
+
+body {
+  font-size: 2rem;
+  font-family: 'suisse', san-serif;
+  line-height: 1.2em;
+  color: var(--black);
+  background-color: var(--backgroundColor);
+  margin: 2rem;
+}
+
+header h1 {
+  display: inline;
+  font-weight: bold;
+}
+
+.intro p, 
+header {
+  padding-bottom: 2rem;
+}
+
+.map {
+  display: block;
+  width: 100%;
+}
+
+.checklist ol {
+  list-style: decimal;
+  margin: 0 2rem 0 3rem;
+}
+
+.checklist li {
+  display: list-item;
+  margin-top: 2rem;
+  padding-left: 1rem;
+}
+
+.checklist li h1,
+.checklist li h2 {
+  font-weight: normal;
+}
+
+.checklist li h2 {
+  display: inline;
+  font-style: italic;
+}
+
+.misc p {
+  margin-top: 3rem;
+}
+
+.bios {
+  margin-top: 8rem;
+}
+
+.bios li {
+  margin-bottom: 3rem;
+}
+
+footer {
+  margin-top: 9rem;
+  font-size: 1.7rem;
+}
+
+footer a.logos {
+  margin-top: 5rem;
+  text-align: center;
+  padding: 20px 0;
+  display: block;
+}
+
+footer a.const {
+  display: block;
+  text-align: center;
+  max-width: 70%;
+  margin: 1rem auto;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}

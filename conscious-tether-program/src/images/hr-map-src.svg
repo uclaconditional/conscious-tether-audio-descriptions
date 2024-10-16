@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 326.9 289.4">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: SuisseIntl-Regular, 'Suisse Intl';
+        font-size: 10px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: .7px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="text">
+      <path class="cls-2" d="M225,19.9h-126.2v-6.4h126.2v6.4Z"/>
+      <path class="cls-2" d="M308.3,272.3V19.9h-54.9v-6.4h61.2v265.2H11.2V13.5h58.6v6.4H17.6v252.4h290.8Z"/>
+      <text class="cls-1" transform="translate(289 43.7)"><tspan x="0" y="0">1</tspan></text>
+      <text class="cls-1" transform="translate(295.5 122.3)"><tspan x="0" y="0">2</tspan></text>
+      <text class="cls-1" transform="translate(238.6 264.4)"><tspan x="0" y="0">3</tspan></text>
+      <text class="cls-1" transform="translate(160.1 240.3)"><tspan x="0" y="0">4</tspan></text>
+      <text class="cls-1" transform="translate(85.9 267)"><tspan x="0" y="0">5</tspan></text>
+      <text class="cls-1" transform="translate(41.4 257.1)"><tspan x="0" y="0">6</tspan></text>
+      <text class="cls-1" transform="translate(26.6 210.6)"><tspan x="0" y="0">7</tspan></text>
+      <text class="cls-1" transform="translate(97 132.4)"><tspan x="0" y="0">14</tspan></text>
+      <text class="cls-1" transform="translate(22.5 90.5)"><tspan x="0" y="0">8</tspan></text>
+      <text class="cls-1" transform="translate(44.1 61.2)"><tspan x="0" y="0">9</tspan></text>
+      <text class="cls-1" transform="translate(22.5 32)"><tspan x="0" y="0">10</tspan></text>
+      <text class="cls-1" transform="translate(102.5 32)"><tspan x="0" y="0">11</tspan></text>
+      <text class="cls-1" transform="translate(132.7 32)"><tspan x="0" y="0">12</tspan></text>
+      <text class="cls-1" transform="translate(197.7 32)"><tspan x="0" y="0">13</tspan></text>
+    </g>
+  </g>
+</svg>
